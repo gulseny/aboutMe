@@ -5,17 +5,48 @@ body {
 
 .me {
 	/*color: white;*/
-	font-size: 36px;
+	font-size: 40px;
 	font-weight: bold;
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	margin-top:-85px;
-	margin-left: -272px;
+	margin-top:-139px;
+	margin-left: -301px;
 	text-align: center;
 }
 
 .name {
 	font-family: 'Handlee', cursive;
-	font-size: 48px;
+	font-size: 60px;
+}
+
+.address, .contactMe {
+	font-size: 20px;
+}
+
+.address {
+	margin-bottom: 20px;
+}
+
+.fa {
+	margin-top: -20px;
+}
+
+.glyphicon {
+	margin-left: 15px;
+}
+
+.blog {
+	margin-top: -20px;
+}
+
+.blog a{
+	font-size: 24px;
+	color: black;
+	text-align: center;
+}
+
+.blog a:hover{
+	text-decoration: none;
+	color: rgb(66, 139, 202);
 }
